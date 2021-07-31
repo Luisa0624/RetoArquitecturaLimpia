@@ -1,0 +1,24 @@
+{
+  "name": "backnodejs",
+  "version": "1.0.0",
+  "description": "Se realiza la propuesta de arquitectura limpia en el back con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Luisa Maria Gil Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "dotenv": "^10.0.0"
+  }
+}
